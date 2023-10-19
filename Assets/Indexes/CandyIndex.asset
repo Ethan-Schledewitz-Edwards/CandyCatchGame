@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae9653ffa64d48498466109d15adc23, type: 3}
+  m_Name: CandyIndex
+  m_EditorClassIdentifier: 
+  candyWeights:
+  - weight: 10
+    candy: {fileID: 11400000, guid: 30182ed7d52d230409c257560791fae3, type: 2}
+  - weight: 6
+    candy: {fileID: 11400000, guid: ee84bb5648c680b41b77ad00c8004c1c, type: 2}
+  - weight: 4
+    candy: {fileID: 11400000, guid: 73c61415517aad14897cc171523adc89, type: 2}
+  - weight: 3
+    candy: {fileID: 11400000, guid: 31f774328b9ae7349a1def7ba36c4125, type: 2}
+  - weight: 2
+    candy: {fileID: 11400000, guid: 9b6d33d6fe424fc4fb1417c84355cfe0, type: 2}
+  - weight: 1
+    candy: {fileID: 11400000, guid: efc89036d2a637b41a8f074afe782c97, type: 2}

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2907371555097992361
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6289697235222947193, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: candy
+      value: 
+      objectReference: {fileID: 11400000, guid: 73c61415517aad14897cc171523adc89, type: 2}
+    - target: {fileID: 525676259472963128, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879466638086825699, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748114089575850254, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_Name
+      value: Candy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787576575577933183, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd7e98cdcf951b84c98c7139fa6bb4d9, type: 3}
+    - target: {fileID: 7787576575577933183, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5748114089575850254, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 205276840860479178}
+  m_SourcePrefab: {fileID: 100100000, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+--- !u!1 &7465956948339785127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5748114089575850254, guid: 878455a28781a6f41acb73e129f99032, type: 3}
+  m_PrefabInstance: {fileID: 2907371555097992361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &205276840860479178
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465956948339785127}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
